@@ -12,9 +12,9 @@ pool:
   - npm
 
 variables:
-  buildConfiguration: '$(buildConfiguration)'
-  wwwrootDir: '$(wwwrootDir)'
-  dotnetSdkVersion:  '$(dotnetSdkVersion)'
+  buildConfiguration: 'buildConfiguration'
+  wwwrootDir: 'wwwrootDir'
+  dotnetSdkVersion:  'dotnetSdkVersion'
 
 steps:
 - task: UseDotNet@2
